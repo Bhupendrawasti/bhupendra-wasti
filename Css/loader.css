@@ -2,10 +2,10 @@
 #loading{ 
     
     position:fixed;
-    height:100%;
-    width:95%;
+    height:100vmh;
+    width:100%;
     background-color:#fff;
-    
+    z-index: 99999;
 }
 #load
 {
