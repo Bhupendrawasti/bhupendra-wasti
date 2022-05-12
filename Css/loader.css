@@ -1,11 +1,11 @@
 
 #loading{ 
     
-    position: absolute;
+    position:fixed;
     height:100%;
-    width:100%;
+    width:95%;
     background-color:#fff;
-    z-index: 99999;
+    
 }
 #load
 {
@@ -78,7 +78,8 @@
 @keyframes pop
 {
     0%
-    { transform:scale(0.8); }
+    { transform:scale(0.8);
+    color: blue;}
     34%
     { transform:scale(1); }
     66%
@@ -109,10 +110,10 @@
 }
 
 @keyframes flip {
-    35% {
+    35% {color: blue;
        transform: rotateX(360deg);
      }
-    100% {
+    100% {color: red;
        transform: rotateX(360deg);
      }
 }
@@ -140,29 +141,36 @@
 
 
 
-#loaderfoot{
+.loaderfoot{
     text-align:left;
-    font-size:10px; 
     background:pink
     background-size:cover;
     -webkit-background-clip:text;
-    letter-spacing:2px;
-    -webkit-text-stroke:0.1px pink
+    letter-spacing:1px;
+    -webkit-text-stroke:0px
     
 }
 
 
 #loaderfoot span{
-    font-size: 3px;
+    font-size: 10px;
     display: inline-block;
     animation: move 4s ease-in-out infinite;
 }
 @keyframes move{
-    0%{
+    0%{color: blue;
         transform: translateX(10%);
     }
-    
-    100%{
+    10%{color: red; }
+    20%{color: yellow; }
+    30%{color: purple;}
+    40%{color: teal; }
+    50%{color: olive; }
+    60%{color: green;}
+    70%{color: red; }
+    80%{color: aqua;}
+    90%{color: silver;}
+    100%{color: pink;
         transform: translateX(220%);
     }
 }
