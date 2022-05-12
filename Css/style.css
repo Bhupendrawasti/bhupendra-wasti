@@ -152,4 +152,14 @@ text-align: center;
 @keyframes waqar {
     from{}
     to{transform:rotateY(360deg);}
+    10%{color: red; }
+    20%{color: yellow; }
+    30%{color: purple;}
+    40%{color: teal; }
+    50%{color: olive; }
+    60%{color: green;}
+    70%{color: red; }
+    80%{color: aqua;}
+    90%{color: silver;}
+    100%{color: pink;}
 }
