@@ -1,11 +1,12 @@
 
 #loading{ 
     
-    position: relative;
+    position: absolute;
     height:100%;
     width:100%;
     background-color:#fff;
     z-index:9999;
+    justify-content:center;
     
 }
 #load
@@ -98,6 +99,7 @@
 #loader1 {
      perspective: 700px;
      text-align:center ;
+     position:relative;
 }
 
 
