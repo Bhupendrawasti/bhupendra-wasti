@@ -72,7 +72,7 @@ body {
 .card_pic {
     position: relative;
     background-size: cover;
-    background-image: url('/My website/photos/Bhupendra.jpg');
+    background-image: url('/Photos/Bhupendra.jpg');
     height: 20rem;
     clip-path: polygon(0% 0%, 0% 100%, 100% 82%, 100% 0%);
 }
